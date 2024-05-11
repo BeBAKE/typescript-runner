@@ -15,7 +15,7 @@ After that put the following in the script tag of package.json
 ```javascript
 {
   "scripts": {
-    "[npm-script-command]" : "bash ./node_modules/typescript-runner/tsRunner.sh
+    "[npm-script-command]" : "bash ./node_modules/typescript-runner/tsRunner.sh"
   }
 }
 ```
