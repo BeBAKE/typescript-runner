@@ -23,12 +23,15 @@ then
   
   #now run the latest saved file using node
   node ./dist/$jsFile
+
 else
   # if the name of file is provided then first check if name
   # exists , then run it
   filesInDist=$(ls -rt ./dist)
   
   check=0
+
+  file=${file/ts/js}
 
   for file2 in $filesInDist
   do
@@ -43,7 +46,7 @@ else
   then 
     echo "file not found in dist"
   else
-    node ./dist/$file
+    node ./dist/${file/ts/js}
   fi
 
   

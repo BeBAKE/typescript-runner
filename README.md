@@ -28,7 +28,7 @@ preferably replace "[npm-script-command]" with "start" , so that it can work wih
 
 1.  With filename
 ```bash
-node [npm-script-command] [optional-filename.js]
+node [npm-script-command] [optional-filename.ts]
 ```
 
 Replace  `[optional-filename.js]`  with the name of the typescript file you want to run and replace [npm-script-command] with the name of script command you used above . 
